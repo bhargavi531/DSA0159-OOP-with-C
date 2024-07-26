@@ -1,0 +1,19 @@
+#include <iostream>
+int main() {
+    int num1, num2;
+    std::cout << "Enter the first integer: ";
+    std::cin >> num1;
+    std::cout << "Enter the second integer: ";
+    std::cin >> num2;
+    int sum = num1 + num2;
+    int difference = num1 - num2;
+    int product = num1 * num2;
+    int quotient = num1 / num2;
+    int modulo = num1 % num2;
+    std::cout << "Addition: " << num1 << " + " << num2 << " = " << sum << std::endl;
+    std::cout << "Subtraction: " << num1 << " - " << num2 << " = " << difference << std::endl;
+    std::cout << "Multiplication: " << num1 << " * " << num2 << " = " << product << std::endl;
+    std::cout << "Division: " << num1 << " / " << num2 << " = " << quotient << std::endl;
+    std::cout << "Modulo: " << num1 << " % " << num2 << " = " << modulo << std::endl;
+    return 0;
+}
