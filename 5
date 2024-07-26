@@ -1,0 +1,26 @@
+#include <iostream>
+#include <cmath>
+
+int main() {
+    float num1, num2;
+
+    std::cout << "Enter the first floating-point number: ";
+    std::cin >> num1;
+
+    std::cout << "Enter the second floating-point number: ";
+    std::cin >> num2;
+
+    float sum = num1 + num2;
+    float difference = num1 - num2;
+    float product = num1 * num2;
+    float quotient = num1 / num2;
+    float modulo = std::fmod(num1, num2);
+
+    std::cout << "Addition: " << num1 << " + " << num2 << " = " << sum << std::endl;
+    std::cout << "Subtraction: " << num1 << " - " << num2 << " = " << difference << std::endl;
+    std::cout << "Multiplication: " << num1 << " * " << num2 << " = " << product << std::endl;
+    std::cout << "Division: " << num1 << " / " << num2 << " = " << quotient << std::endl;
+    std::cout << "Modulo: " << num1 << " % " << num2 << " = " << modulo << std::endl;
+
+    return 0;
+}
